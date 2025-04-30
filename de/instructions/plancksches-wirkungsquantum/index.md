@@ -32,45 +32,44 @@ summary: 'In diesem Experiment wird das Planck''sche Wirkungsquantum über die S
 ## Material
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" src="pictures/h-Box_frei.png"> *phyphox*:h-Box | <img width="1604" src="pictures/Abdunklungsbox_frei.png"> Abdunklungsbox | <img width="1604" src="pictures/Hocker_frei.png"> Stabilisierungshocker |
-|<img width="1604" src="pictures/LED-Einsatz_frei.png"> Verschiedene LED-Einsätze | <img width="1604" src="pictures/Anschlusskabel_frei.png"> Anschlusskabel | <img width="1604" src="pictures/Smartphone_frei.png"> Smartphone |
+|<img width="1604" src="pictures/h-Box_frei.png"> *phyphox*:h-Box (Spannungsregelung) | <img width="1604" src="pictures/Abdunklungsbox_frei.png"> Abdunklungsbox | <img width="1604" src="pictures/Hocker_frei.png"> Stabilisierungshocker |
+|<img width="1604" src="pictures/LED-Einsatz_frei.png"> Verschiedene LED-Einsätze unterschiedlicher Wellenlängen | <img width="1604" src="pictures/Anschlusskabel_frei.png"> Anschlusskabel | <img width="1604" src="pictures/Smartphone_frei.png"> Smartphone (Messung der Lichtintensität) |
 
-## Aufbau
-1. Ladet euch das *phyphox*-Experiment **PLA** (Planck'sches Wirkungsquantum) mit dem untenstehenden QR-Code herunter.
-   - Öffnet *phyphox*.
-   - Klickt auf das Plus-Symbol.
-   - Wählt "Neues Experiment von einem QR-Code"aus.
-   - Scannt den untenstehenden QR-Code ein.
-2. Schließt die Abdunklungsbox an die *phyphox*:h-Box an.
-3. Schließt die *phyphox*:h-Box an die Spannungsquelle an (z.B. das Smartphone).
+## Aufbau/Vorbereitung
+1. Bauen Sie den Versuchsaufbau gemäß der untenstehenden Abbildung auf.
+2. Laden Sie sich das *phyphox*-Experiment **PLA** (Planck'sches Wirkungsquantum) herunter.
+   - Öffnen Sie die App *phyphox*.
+   - Klicken Sie auf das Plus-Symbol.
+   - Wählen Sie *Neues Experiment über Bluetooth hinzufügen* aus.
+   - Wählen Sie Ihre *phyphox*:h-Box aus der Liste aus (Nummerierung an der Seite);
+   - Speichern Sie das Experiment in der Sammlung ab.
 
 ![Fertiger Aufbau](pictures/h-Bestimmung_frei.png)
 
-![QR-Code zum PLA-Experiment](pictures/QR_PHOV2lite.png){width=20%}
+## Aufgaben
+- Öffnen Sie das *phyphox*-Experiment **PLA**.
+- Wählen Sie Ihre *phyphox*:h-Box (Nummerierung an der Seite) aus. \[\Rightarrow\] Nun verbindet sich die Box mit der App und sendet den Wert der angelegten Spannung
+- Platzieren Sie Ihr Smartphone so auf der Abdunklungsbox, dass sich die Kamera direkt über dem weißen Reflexionsmaterial befindet. Nutzt ggf. den bereitgestellten Hocker zur Stabilisierung des Smartphones.
+- Bestimmen Sie die Schwellenspannungen von mindestens zehn LEDs. Die Unsicherheiten \[u_{\lambda}\] auf die Wellenlängen \[\lambda\] finden Sie in der angeführten Tabelle.
+    1. Setzen Sie eine LED in die Abdunklungsbox ein.
+    2. Stellen Sie den Spannungsregler der *phyphox*:h-Box auf das Maximum. Regeln Sie die Spannung anschließend so weit herab, dass der Auswahlbereich der Kamera *gerade so nirgendwo überlichtet* wird (d.h. der Auswahlbereich darf *keine rot markierten Stellen* enthalten).
+    3. Wechseln Sie auf den reiter *Bestimmen der Schwellenspannung*
+    4. Starten Sie die Messung (Play-Button oben rechts)
+    5. Nehmen Sie durch *langsames* Verringern der Spannung eine LED-Kennlinie auf.
+    6. Pausieren Sie die Messung.
+    7. Platzieren Sie die grüne Ausgleichsgerade in der Kennlinie *durch Anpassung der minimalen und maximalen berücksichtigten Intensität*. Die Ausgleichsgerade soll durch den linearen Bereich der Kennlinie verlaufen.
+    8. Notieren Sie die vom Experiment berechnete Schwellenspannung. Notieren Sie auch die zugehörige Unsicherheit.
+    9. Geben Sie die Wellenlänge der LED im Experiment ein und speichern Sie das Wertepaar *Wellenlänge-Schwellenspannung* im Experiment ab. Das Wertepaar ist anschließend im Reiter *h-Bestimmung* verfügbar.
+    10. Löschen Sie die aufgenommenen Messdaten durch Wahl des entsprechenden Buttons und wiederholen Sie den Messprozess mit der nächsten LED.
+- Wechseln Sie zum Reiter *h-Bestimmung*. Tippen Sie auf die Auftragung von \[E_{ph}\] über \[f\] und wählen Sie unter *Mehr Werkzeuge* die Ausgleichsgerade. Bestimmen Sie mithilfe dieser das Planck'sches Wirkungsquantum.
 
-## Durchführung
-1. Öffnet das *phyphox*-Experiment **PLA**.
-2. Wählt eure *phyphox*:h-Box (Nummerierung an der Seite) aus. \[\Rightarrow\] Nun verbindet sich die Box mit der App und sendet den Wert der angelegten Spannung.
-3. Platziert euer Smartphone so auf der Abdunklungsbox, dass sich die Kamera direkt über dem Reflexionsmaterial (weiß) befindet. Nutzt ggf. den bereitsgestellten Hocker zur Stabilisierung des Smartphones.
----
-4. Setzt einen LED-Einsatz in die Abdunklungsbox ein.
-5. Stellt den Spannungsregler auf der *phyphox*:h-Box auf das Maximum. Stellt den Auswahlbereich der Kamera so ein, dass *nirgendwo überbelichtet* wird (d.h. der Auswahlbereich darf *keine rot markierten Stellen* enthalten).
-6. Dreht den Spannungsregler zurück und wechselt auf den Reiter "Bestimmen der Schwellenspannung".
-7. Startet die Messung.
-8. Nehmt durch *langsames* Drehen des Spannungsreglers eine LED-Kennlinie auf. *Alternativ könnt ihr auch den Sägezahn-Modus ausprobieren, bei dem die Kennlinie automatisch von links nach rechts abgefahren wird*.
-9. Pausiert die Messung, wenn ihr eine brauchbare Kennlinie aufgenommen habt.
-10. Platziert die grüne Ausgleichsgerade in der Kennlinie durch *Anpassung der minimalen und maximalen berücksichtigten Intensität*. Die Ausgleichsgerade soll durch den linearen Bereich der Kennlinie verlaufen.
-11. Notiert euch die vom Experiment berechnete Schwellenspannung \[U_\mathsf{Schwelle}\] auf dem Auswertungsbogen. Notiert euch auch die zugehörige Unsicherheit. Gebt anschließend die Wellenlänge im Experiment ein und speichert das Wertepaar *Wellenlänge*-*Schwellenspannung* im Experiment ab. Das Wertepaar ist anschließend im Reiter "h-Bestimmung" verfügbar.
-12. Löscht die aufgenommenen Messdaten durch Wahl des entsprechende Buttons und fangt mit der nächsten LED bei Schritt 4 an.
 
 ## Auswertung
-1. Berechnet aus den Schwellenspannungen die Photonenenergien (mit Unsicherheiten).
-*Erinnerung*: \[e=1.602\cdot 10^{-19}\,\mathrm{C}\]
-2. Tragt die erhaltenen Frequenz-Energie-Wertepaare in das zugehörige Diagramm auf dem Auswertungsbogen ein (mit Unsicherheiten).
-3. Zeichnet eine Ausgleichsgerade in das Diagramm ein und bestimmt deren Steigung. Welche physikalische Bedeutung hat die Steigung?
-4. Zeichnet jeweils die Gerade minimaler und maximaler Steigung (im Rahmen der Unsicherheiten) in das Diagramm ein.
-5. Berechnet die Unsicherheit auf den Messwert für das Planck'sche Wirkungsquantum.
+1. Bestimmen Sie mit einem geeigneten Verfahren aus den Wellenlängen der LED und den jeweils gemessenen Schwellenspannungen das Planck'sches Wirkungsquantum.
+2. Vergleichen Sie den erhaltenen Wert mit dem in der App angezeigten Wert.
+3. Berücksichtigen Sie beide Verfahren in Ihrem didaktischen Kommentar.
 
+   
 ## Probleme und Lösungen
 - **Die Bluetooth-Verbindung bricht ab** Die App *phyphox* schließen und das *phyphox*-Experiment neu starten.
 - **Die Kennlinie zeigt eine Hysterese** Dies ist häufig der Fall, wenn die Spannung zu schnell variiert wird. Messkurve durch Wahl des entsprechenden Button löschen und die Messung noch einmal neu starten.
